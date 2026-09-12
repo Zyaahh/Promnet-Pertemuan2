@@ -1,0 +1,1 @@
+Halooo, Ini latihan pertamakali menggunakan Github
