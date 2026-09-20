@@ -1,96 +1,176 @@
- <!doctype html>
+<!doctype html>
 <html lang="id">
   <head>
-    <title>Projects</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+    <link rel="stylesheet" href="project.css" />
   </head>
   <body>
-    <h1>MY PROJECT</h1>
-    <nav>
-      <a href="https://zyaahh.github.io/Promnet-Pertemuan2/">Home</a> | 
-      <a href="https://zyaahh.github.io/Promnet-Pertemuan2/About.html">About</a>|
-      <a href="https://zyaahh.github.io/Promnet-Pertemuan2/Project.html">Project</a>|
-      <a href="https://zyaahh.github.io/Promnet-Pertemuan2/Contact.html">Contact</a> |
-      <a href="https://zyaahh.github.io/Promnet-Pertemuan2/My Journey.html">My Journey</a>
-    </nav>
-    <hr>
-    <h2>Daftar Project</h2>
-    <p>Berikut adalah beberapa project sederhana yang pernah atau sedang saya kerjakan</p>
-    <h3>Project 1 : Vending Machine</h3>
-    <img src="assets/vending machine.jpeg" alt="Project 1 : Vending Machine" width="240" />
-    <p>Alat sederhana ini dibuat untuk menyimpan makanan atau snack yang bisa dibeli oleh pembeli</p>
-    <h3>Project 2 : Show Case</h3>
-    <img src="assets/show case.jpeg" alt="Project 2 : Show Case" width="240" />
-    <p>Prototype ini adalah sebuah karya yang berasal dari isu atau permasalahan di indonesia</p>
-    <h3>Project 3 : Buku Pendidikan dan Teknologi</h3>
-    <img src="assets/buku.jpeg" alt="Project 3 : Buku Pendidikan dan Teknologi" width="240" />
-    <p>Buku ini merupakan kumpulan artikel yang dibuat berdasarkan hasil Research yang berhubungan dengan pendidikan sistem dan teknologi informasi.</p>
-    <nav>
-      <a href="https://share.google/j2NNWNPDsgIvWYCzn">Lihat di Gramedia</a>
-    </nav>
-    <h3>Project 4 : Zamzam Hidden Spot</h3>
-    <img src="assets/ZHS.jpeg" alt="Project 4 : Zamzam Hidden Spot" width="240" />
-    <p>Platform Zamzam Hidden Spot merupakan sebuah platform tour guide di berbagai tempat wisata Indonesia.</p>
-    <nav>
-      <a href="https://www.instagram.com/reel/DWUD0rtExOj/?igsi=d2RscGtwcWxjcGRo">LIhat di Instagram</a>
-    </nav>
-    <h3>Project 5 : Kreswara Studio</h3>
-    <img src="assets/kreswara studio.jpeg" alt="Project 5 : Kreswara Studio" width="240" />
-    <p>Kreswara Studio ini project pengembangan game yang dinamakan Kreswara Echoes of Lost Soul</p>
-    <nav>
-      <a href="https://drive.google.com/drive/folders/1HuHHis2mV_zRprQ1YF_F0_HT_79gNASW">Lihat di Google Drive</a>
-    </nav>
-    <h3>Teknologi yang Digunakan</h3>
-    <ul>
-        <li>HTML</li>
-        <li>Pyhton</li>
-        <li>MySQL</li>
-        <li>VSCode</li>
-        <li>Git</li>
-    </ul>
-    <h3>Ringkaasan Project</h3>
-    <table border="2" cellpadding="7">
-    <tr>
-        <td colspan="4"><h3 align="center">Ringkasan Portofolio Project</h3></td>
-    </tr>
-    <tr>
-        <td rowspan="2"><h3 align="center">No</h3></td>
-        <td rowspan="2"><h3 align="center">Nama Project</h3></td>
-        <td colspan="2"><h3 align="center">Detail Project</h3></td>
-    </tr>
-    <tr>
-     <td><h4 align="center">Jenis</h4></td>
-    <td><h4 align="center">Status<h4></td>
-    </tr>
-    <tr>
-        <td>1</td>
-        <td>Vending Machine</td>
-        <td>Alat Sedderhana</td>
-        <td rowspan="5">Selesai</td>
-    </tr>
-     <tr>
-        <td>2</td>
-        <td>Show Case</td>
-        <td>Prototype</td>
-     </tr>
-     <td>3</td>
-        <td>Buku Pendidikan dan Teknologi</td>
-        <td>Research</td>
-      <tr>
-        <td>4</td>
-        <td>Zamzam Hidden Spot</td>
-        <td>Platform</td>
-     </tr>
-     <tr>
-        <td>5</td>
-        <td>Kreswara Studio</td>
-        <td>Game</td>
-        </tr>
-        </table>
-        <br>
-     <a href="../Tugas/Contact.html">Tertarik Berdiskusi?Hubungi</a>
-     <hr>
-   <footer>
-    &copy; 2026 Tiara Ramziyah Athallah. Dibuat menggunakan HTML.
-</footer>
-</body>
+    <header id="header">
+      <nav class="navbar">
+        <img src="assets/TRA.png" alt="logo TRA" class="logo-TRA" />
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="About.html">About</a>
+          <a class="active" href="Project.html">Project</a>
+          <a href="Contact.html">Contact</a>
+          <a href="My%20Journey.html">My Journey</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="page-container">
+      <section class="page-heading">
+        <p class="small-title">MY WORK AND LEARNING PROCESS</p>
+        <h1>My Projects</h1>
+        <p>Beberapa project sederhana yang pernah atau sedang saya kerjakan.</p>
+      </section>
+
+      <section class="project-grid">
+        <div class="project-card">
+          <img
+            src="assets/Vending Machine.png"
+            alt="Project Vending Machine"
+          />
+          <div class="project-content">
+            <p class="project-number">PROJECT 01</p>
+            <h2>Vending Machine</h2>
+            <p>
+              Alat sederhana untuk menyimpan dan menjual makanan atau snack.
+            </p>
+            <span class="tag">Alat Sederhana</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="assets/show case.jpeg" alt="Project Show Case" />
+          <div class="project-content">
+            <p class="project-number">PROJECT 02</p>
+            <h2>Show Case</h2>
+            <p>
+              Prototype yang dikembangkan berdasarkan isu atau permasalahan di
+              Indonesia.
+            </p>
+            <span class="tag">Prototype</span>
+          </div>
+        </div>
+
+        <article class="project-card">
+          <img src="assets/buku.jpeg" alt="Buku Pendidikan dan Teknologi" />
+          <div class="project-content">
+            <p class="project-number">PROJECT 03</p>
+            <h2>Buku Pendidikan dan Teknologi</h2>
+            <p>
+              Kumpulan artikel berdasarkan research yang berhubungan dengan
+              pendidikan dan teknologi informasi.
+            </p>
+            <a
+              class="project-link"
+              href="https://share.google/j2NNWNPDsgIvWYCzn"
+              target="_blank"
+              >Lihat di Gramedia</a
+            >
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="assets/ZHS.jpeg" alt="Project Zamzam Hidden Spot" />
+          <div class="project-content">
+            <p class="project-number">PROJECT 04</p>
+            <h2>Zamzam Hidden Spot</h2>
+            <p>
+              Platform tour guide untuk mengenalkan berbagai tempat wisata di
+              Indonesia.
+            </p>
+            <a
+              class="project-link"
+              href="https://www.instagram.com/reel/DWUD0rtExOj/?igsi=d2RscGtwcWxjcGRo"
+              target="_blank"
+              >Lihat di Instagram</a
+            >
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img
+            src="assets/kreswara studio.jpeg"
+            alt="Project Kreswara Studio"
+          />
+          <div class="project-content">
+            <p class="project-number">PROJECT 05</p>
+            <h2>Kreswara Studio</h2>
+            <p>
+              Project pengembangan game berjudul Kreswara: Echoes of Lost Soul.
+            </p>
+            <a
+              class="project-link"
+              href="https://drive.google.com/drive/folders/1HuHHis2mV_zRprQ1YF_F0_HT_79gNASW"
+              target="_blank"
+              >Lihat di Google Drive</a
+            >
+          </div>
+        </article>
+      </section>
+
+      <section class="technology-box">
+        <h2>Teknologi yang Digunakan</h2>
+        <div class="technology-list">
+          <span>HTML</span>
+          <span>Python</span>
+          <span>MySQL</span>
+          <span>VS Code</span>
+          <span>Git</span>
+        </div>
+      </section>
+
+      <section class="summary-box">
+        <h2>Ringkasan Portofolio</h2>
+        <div class="table-wrapper">
+          <table>
+            <tr>
+              <th>No</th>
+              <th>Nama Project</th>
+              <th>Jenis</th>
+              <th>Status</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Vending Machine</td>
+              <td>Alat Sederhana</td>
+              <td>Selesai</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Show Case</td>
+              <td>Prototype</td>
+              <td>Selesai</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Buku Pendidikan dan Teknologi</td>
+              <td>Research</td>
+              <td>Selesai</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Zamzam Hidden Spot</td>
+              <td>Platform</td>
+              <td>Selesai</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Kreswara Studio</td>
+              <td>Game</td>
+              <td>Selesai</td>
+            </tr>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Tiara Ramziyah Athallah.</p>
+    </footer>
+  </body>
 </html>

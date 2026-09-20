@@ -1,37 +1,60 @@
 <!doctype html>
 <html lang="id">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Personal Website</h1>
-    <p>Selamat datang di website Pribadi saya</p>
-    <nav>
-      <a href="https://zyaahh.github.io/Promnet-Pertemuan2/">Home</a> | 
-      <a href="https://zyaahh.github.io/Promnet-Pertemuan2/About.html">About</a>|
-      <a href="https://zyaahh.github.io/Promnet-Pertemuan2/Project.html">Project</a>|
-      <a href="https://zyaahh.github.io/Promnet-Pertemuan2/Contact.html">Contact</a> |
-      <a href="https://zyaahh.github.io/Promnet-Pertemuan2/My Journey.html">My Journey</a>
-    </nav>
-    <hr>
-    <h3>Haloo, Saya Tiara Ramziyah Athallah</h3>
-        <img src="assets/foto profil.jpeg" alt="Foto profil mahasiswa" width="240" />
-    <p>Saya adalah mahasiswa aktif yang sedang mempelajari berbagai hal di bidang latihan dalam membuat website dengan HTML dan CSS</p>
-    <p>Website ini, kalian dapata mengenal saya, melihat beberapa project serta menghubungi saya jika diperlukan.</p>
-    <h3>Yang Saya Pelajari</h3>
-    <ul>
-        <li>HTML</li>
-        <li>Alogaritme Pemograman</li>
-        <li>Basis Data</li>
-        <li>Management Rantai Pasok</li>
-        <li>Perencanaan Pembelajaran</li>
-    </ul>
-    <p>Silahkan kunjungi halaman
-        <a href="../Tugas/About.html">About</a>
-        untuk mengetahui profil saya lebih lengkap</p>
-    <hr>
-     <footer>
-    &copy; 2026 Tiara Ramziyah Athallah. Dibuat menggunakan HTML.
+    <header id="header">
+      <nav class="navbar">
+        <img src="assets/TRA.png" alt="logo TRA" class="logo-TRA" />
+        <div class="nav-links">
+          <a class="active" href="index.html">Home</a>
+          <a href="About.html">About</a>
+          <a href="Project.html">Project</a>
+          <a href="Contact.html">Contact</a>
+          <a href="My%20Journey.html">My Journey</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="page-container">
+      <section class="hero">
+        <div class="hero-text">
+          <p class="small-title">WELCOME TO MY PERSONAL WEBSITE</p>
+          <h1>Halo, saya <span>Tiara</span> Ramziyah Athallah.</h1>
+          <p class="description">
+            Saya adalah mahasiswa aktif yang sedang mempelajari berbagai hal di bidang latihan dalam membuat website dengan HTML dan CSS 
+            Website ini, kalian dapata mengenal saya, melihat beberapa project serta menghubungi saya jika diperlukan.</p>
+          <div class="hero-buttons">
+            <a class="button primary-button" href="About.html">Kenali Saya</a>
+            <a class="button secondary-button" href="Project.html"
+              >Lihat Project</a
+            >
+          </div>
+        </div>
+
+        <div class="hero-photo">
+          <img src="assets/foto profile.JPG" alt="Foto profil Tiara" />
+        </div>
+      </section>
+
+      <section class="section-box">
+        <h2>Yang Sedang Saya Pelajari</h2>
+        <div class="skill-list">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>Algoritma Pemrograman</span>
+          <span>Basis Data</span>
+          <span>Perencanaan Pembelajaran</span>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Tiara Ramziyah Athallah.</p>
     </footer>
-</body>
+  </body>
 </html>
